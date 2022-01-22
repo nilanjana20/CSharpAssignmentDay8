@@ -11,7 +11,7 @@ namespace CSharpAssignmentDay3
           public const int workingDayPerMonth = 2;
           public const int maxHrsPerMonth = 10;
           
- 		public static void EmployeeWageSolution()
+ 		public static int EmployeeWageSolution()
 		{
           //variables
           int totalEmpHrs=0, empHrs=0, totalWorkingDays=0;
@@ -47,6 +47,7 @@ namespace CSharpAssignmentDay3
             }      
                   int totalEmpWage = totalEmpHrs * wagePerHour;
                   Console.WriteLine("Total Employee wage : " +totalEmpWage);
+                  return totalEmpWage;
 		}
    	}
 }

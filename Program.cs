@@ -8,7 +8,7 @@ namespace CSharpAssignmentDay3
 		{
 			// Console.WriteLine("Welcome to Employee Wage Computation Program");
 			// EmployeeWage.EmployeeAttendanceCheck();
-			 EmployeeWage.EmployeeWageSolution();
+			   EmployeeWage.EmployeeWageSolution();
 		}
    }
 }
